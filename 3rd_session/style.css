@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-    background-color: bisque;
+    background-color: rgb(187, 214, 244);
     font-size: 20px;
     color: #282828;
     margin-bottom: 16px;
@@ -36,4 +36,18 @@ h2 {
 .title-box {
     text-align: right;
     margin-bottom: 20px;
+}
+
+.addbyme {
+    color :rgb(4, 58, 176);
+    font-style : italic;
+    text-decoration : underline;
+}
+
+a:link {
+    color : blue;
+}
+
+a:visited {
+    color : green
 }
