@@ -48,9 +48,9 @@ h2 {
 }
 
 a:link {
-    color : blue;
+    color : white;
 }
 
 a:visited {
-    color : green
+    color : rgb(229, 247, 177);
 }
