@@ -6,7 +6,7 @@ function orderSubmit(event){
     event.preventDefault();
     orderForm.classList.add("hidden");
     const menuName = orderInput.value;
-    result.innerText = `Hello ${menuName} !`;
+    result.innerText = `Enjoy Your ${menuName} !`;
     result.classList.remove("hidden");
 }
 
