@@ -1,0 +1,47 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "title": "범죄도시3",
+        "description": "나쁜 놈들 잡는 데 이유 없고 제한 없다. 커진 판도 시원하게 싹 쓸어버린다!",
+        "poster" : "m1.jpg"
+      },
+      {
+        "id": 2,
+        "title": "엘리멘탈",
+        "description": "디즈니·픽사의 놀라운 상상력! 올여름, 세상이 살아 숨 쉰다.",
+        "poster" : "m2.jpg"
+      },
+      {
+        "id": 3,
+        "title": "여름날 우리",
+        "description": "처음이었다, 사랑이 싹트는 기분. 너에게 풍덩 빠져버렸던 17살의 여름.",
+        "poster" : "m3.jpg"
+      }
+    ],
+    "songs": [
+        {
+          "id": 1,
+          "title": "New Jeans",
+          "artist": "NewJeans",
+          "lyrics": "New hair, New tee, NewJeans, Do you see ",
+          "url": "https://www.youtube.com/embed/kcelgrGY1h8"
+        },
+        {
+          "id": 2,
+          "title": "Don't feel sad",
+          "artist": "Whiteusedsocks",
+          "lyrics": "우리는 기억하지 않아도 기억나는 사랑이었어",
+          "url": "https://www.youtube.com/embed/FD6H7VGiHUo"
+        },
+        {
+          "id": 3,
+          "title": "Answer : Love Myself",
+          "artist": "BTS",
+          "lyrics": "저 수천 개 찬란한 화살의 과녁은 나 하나",
+          "url": "https://www.youtube.com/embed/9mwRYgMmSGE"
+        }
+      ]
+
+
+}
