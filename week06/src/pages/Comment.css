@@ -1,0 +1,42 @@
+#img2 {
+    width :40px;
+    height : 45px;
+    margin-left : 26%;
+    padding-top : 20px;
+}
+
+#feedback {
+    position : absolute;
+    display : inline;
+    width : 200px;
+    height : 40px;
+    margin-left : 35%;
+    margin-top : 15px;
+    padding-top : 0px;
+}
+
+#c1 {
+    position : absolute;
+    display : inline;
+    font-size : 21px;
+    font-weight : bold;
+    color : black;
+    margin-left : 13px;
+    margin-top : 0px;
+    padding-bottom : 20px;
+    padding-top : 23px;
+}
+
+#c2 {
+    position : absolute;
+    margin-top : 2px;
+    margin-left : 26%;
+}
+
+#c3 {
+    position : absolute;
+    margin-top :35px;
+    margin-left : 26%;
+    padding-top : 0px;
+    color : gray;
+}
