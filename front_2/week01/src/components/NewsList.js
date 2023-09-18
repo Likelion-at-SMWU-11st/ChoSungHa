@@ -27,11 +27,24 @@ const NewsList = ({category}) => {
     const fetchData = async () => {
         setLoading(true);
         try {
-            const query = category === 'all' ? '' : `&category=${category}`;
-            const response = await axios.get(
-                ` https://newsapi.org/v2/top-headlines?country=kr${query}&apiKey=fb394462ad874585a783586b43c7385c`,
-            );
-            setArticles(response.data.articles);
+          var query;
+          if (category === 'all') {
+            query = 'top-headlines?country=kr';
+          }
+          else if ( category ==='apple') {
+            query = 'everything?q=apple&from=2023-09-17&to=2023-09-17&sortBy=popularity';
+          }
+          else if ( category === 'tesla') {
+            query = 'everything?q=tesla&from=2023-08-18&sortBy=publishedAt';
+          }
+          else {
+            query = `top-headlines?country=kr&category=${category}`;
+          }
+
+          const response = await axios.get(
+              `https://newsapi.org/v2/${query}&apikey=fb394462ad874585a783586b43c7385c`,
+          );
+          setArticles(response.data.articles);
         } catch (e) {
             console.log(e);
         }
