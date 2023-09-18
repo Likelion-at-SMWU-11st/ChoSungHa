@@ -42,7 +42,7 @@ const NewsList = ({category}) => {
           }
 
           const response = await axios.get(
-              `https://newsapi.org/v2/${query}&apikey=fb394462ad874585a783586b43c7385c`,
+              `https://newsapi.org/v2/${query}&apikey=****`,
           );
           setArticles(response.data.articles);
         } catch (e) {
